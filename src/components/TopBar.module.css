@@ -1,0 +1,15 @@
+.bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px var(--he-gap);
+  border-bottom: 1px solid var(--he-border);
+  background: var(--he-surface);
+  min-height: 52px;
+  position: sticky; top: 0; z-index: 10;
+}
+.left, .right { width: 44px; display: flex; align-items: center; }
+.back {
+  width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+  border-radius: var(--he-radius-sm); color: var(--he-text-primary);
+}
+.back:hover { background: var(--he-grey-light); }
+.title { font-size: 15px; font-weight: 500; color: var(--he-text-primary); text-align: center; flex: 1; }

@@ -1,0 +1,7 @@
+.screen { display: flex; flex-direction: column; min-height: 100vh; }
+.content { flex: 1; padding: var(--he-gap); display: flex; flex-direction: column; gap: 20px; }
+.heading { font-size: 18px; font-weight: 600; color: var(--he-text-primary); padding-top: 8px; }
+.steps { display: flex; flex-direction: column; gap: 10px; }
+.errorBox { background: var(--he-amber-light); border: 1.5px solid var(--he-amber); border-radius: var(--he-radius); padding: 16px; display: flex; flex-direction: column; gap: 12px; margin-top: 8px; }
+.errorText { font-size: 14px; color: var(--he-amber); line-height: 1.6; }
+.retryBtn { min-height: 44px; background: var(--he-amber); color: white; border-radius: var(--he-radius-sm); font-size: 15px; font-weight: 500; }

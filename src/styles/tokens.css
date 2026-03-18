@@ -1,0 +1,22 @@
+:root {
+  --he-blue:         #1877C8;
+  --he-blue-light:   #E6F1FB;
+  --he-blue-dark:    #0C447C;
+  --he-green:        #1D9E75;
+  --he-green-light:  #E1F5EE;
+  --he-amber:        #BA7517;
+  --he-amber-light:  #FAEEDA;
+  --he-grey-light:   #F1EFE8;
+  --he-grey-mid:     #C8C4BC;
+  --he-grey-dark:    #6B6860;
+  --he-whatsapp:     #25D366;
+  --he-text-primary: #1A1917;
+  --he-text-muted:   #6B6860;
+  --he-surface:      #FFFFFF;
+  --he-border:       #E2DED6;
+  --he-radius:       12px;
+  --he-radius-sm:    8px;
+  --he-max-width:    480px;
+  --he-gap:          16px;
+  --he-gap-sm:       8px;
+}
