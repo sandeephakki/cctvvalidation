@@ -28,11 +28,15 @@ src/
 └── config/features.js       ← Phase 2 feature flags (all false)
 ```
 
+## 🚀 Live Demo
+
+Visit the deployed app: **[https://hakkieye.netlify.app/](https://hakkieye.netlify.app/)**
+
 ## Quick setup (3 commands)
 
 ```bash
-git clone https://github.com/your-username/hakkieye.git
-cd hakkieye
+git clone https://github.com/sandeephakki/cctvvalidation.git
+cd cctvvalidation
 npm install
 npm run dev
 ```
@@ -47,6 +51,9 @@ npm run preview   # preview the production build locally
 ```
 
 ## Deploy to Netlify
+
+The app is automatically configured for Netlify deployment via `netlify.toml`. 
+Deployed at: **[https://hakkieye.netlify.app/](https://hakkieye.netlify.app/)**
 
 1. Push to GitHub
 2. Connect repo to Netlify
