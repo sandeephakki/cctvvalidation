@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:no-pwa": "DISABLE_PWA=true vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:no-pwa",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
