@@ -1,0 +1,39 @@
+.screen { display: flex; flex-direction: column; min-height: 100vh; }
+.content { flex: 1; padding: var(--he-gap); display: flex; flex-direction: column; gap: 16px; padding-bottom: 40px; }
+.empty { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: var(--he-gap); }
+.homeBtn { min-height: 44px; padding: 0 24px; background: var(--he-blue); color: white; border-radius: var(--he-radius-sm); font-size: 15px; }
+.hddAlert {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--he-amber-light);
+  border: 1.5px solid var(--he-amber);
+  border-radius: var(--he-radius);
+  padding: 14px;
+}
+.hddAlertIcon { flex-shrink: 0; margin-top: 2px; }
+.hddAlertText { font-size: 13px; color: var(--he-amber); line-height: 1.6; }
+.checkList { display: flex; flex-direction: column; gap: 12px; }
+.checkItem {
+  border: 1.5px solid var(--he-border);
+  border-radius: var(--he-radius);
+  padding: 14px;
+  display: flex; flex-direction: column; gap: 8px;
+  background: var(--he-surface);
+}
+.checkTop { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.checkName { font-size: 14px; font-weight: 500; color: var(--he-text-primary); }
+.observation { font-size: 13px; color: var(--he-text-muted); line-height: 1.5; }
+.comparison {
+  display: flex; align-items: stretch;
+  background: var(--he-grey-light);
+  border-radius: var(--he-radius-sm);
+  overflow: hidden;
+}
+.compCol { flex: 1; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+.compDivider { width: 1px; background: var(--he-border); }
+.compLabel { font-size: 10px; color: var(--he-text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.compValue { font-size: 14px; font-weight: 500; color: var(--he-text-primary); }
+.shareBtn {
+  min-height: 52px; background: var(--he-blue); color: white;
+  border-radius: var(--he-radius); font-size: 16px; font-weight: 500;
+}
+.shareBtn:hover { opacity: 0.9; }
