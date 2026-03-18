@@ -1,0 +1,21 @@
+# Netlify Configuration File
+[build]
+  # Build command
+  command = "npm run build"
+  
+  # Directory to deploy (output folder)
+  publish = "dist"
+
+# Redirects for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache settings
+[build.cache]
+  dir = "node_modules"
+
+# Environment variables (if needed in the future)
+# [context.production.environment]
+# API_URL = "https://api.example.com"
