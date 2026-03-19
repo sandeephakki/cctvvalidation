@@ -1,0 +1,28 @@
+.tableWrap { overflow-x: auto; border-radius: var(--he-radius-sm); border: 1px solid var(--he-border); }
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table th {
+  background: var(--he-grey-light); padding: 10px 8px;
+  text-align: left; font-size: 11px; font-weight: 600;
+  color: var(--he-text-muted); text-transform: uppercase; letter-spacing: 0.5px;
+}
+.table td { padding: 10px 8px; border-top: 1px solid var(--he-border); vertical-align: middle; }
+.ch { font-weight: 600; color: var(--he-blue); }
+.cellBtn {
+  background: none; border: none; cursor: pointer; text-align: left;
+  font-size: 13px; font-family: inherit; padding: 2px 4px;
+  border-radius: 4px; display: flex; align-items: center; gap: 6px;
+}
+.cellBtn:hover { background: var(--he-grey-light); }
+.cantRead { color: var(--he-text-muted); font-style: italic; }
+.manual { font-size: 10px; background: var(--he-blue-light); color: var(--he-blue); padding: 1px 5px; border-radius: 4px; }
+.inlineEdit { display: flex; gap: 6px; align-items: center; }
+.inlineInput {
+  height: 32px; border: 1.5px solid var(--he-blue); border-radius: 4px;
+  padding: 0 8px; font-size: 13px; font-family: inherit; width: 120px;
+}
+.saveBtn {
+  height: 32px; padding: 0 10px; background: var(--he-blue); color: white;
+  border-radius: 4px; font-size: 12px; font-weight: 500;
+}
+.empty { color: var(--he-text-muted); font-size: 13px; padding: 12px; text-align: center; }
+.status { font-size: 11px; padding: 2px 6px; border-radius: 4px; background: var(--he-grey-light); color: var(--he-grey-dark); }

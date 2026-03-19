@@ -1,0 +1,8 @@
+export const FEATURES = {
+  WIFI_CAMERAS: false,
+  CLOUD_CAMERAS: false,
+  P2P_CONNECTION: false,
+  CERTIFICATE_HISTORY: false,
+  CERTIFICATE_VERIFY_URL: false,
+  PUSH_NOTIFICATIONS: false,
+}

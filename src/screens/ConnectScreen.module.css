@@ -1,0 +1,43 @@
+.screen { display: flex; flex-direction: column; min-height: 100vh; }
+.hero { display: flex; flex-direction: column; align-items: center; padding: 36px var(--he-gap) 20px; gap: 8px; }
+.wordmark { font-size: 30px; font-weight: 700; }
+.hakki { color: var(--he-text-primary); }
+.eye { color: var(--he-blue); }
+.tagline { font-size: 15px; color: var(--he-text-muted); font-style: italic; }
+.form { flex: 1; padding: 0 var(--he-gap) 40px; display: flex; flex-direction: column; gap: 18px; }
+.sectionTitle { font-size: 16px; font-weight: 600; color: var(--he-text-primary); border-top: 1px solid var(--he-border); padding-top: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.label { font-size: 14px; font-weight: 500; color: var(--he-text-primary); }
+.optional { font-size: 12px; font-weight: 400; color: var(--he-text-muted); }
+.input {
+  height: 48px; border: 2px solid var(--he-border); border-radius: var(--he-radius-sm);
+  padding: 0 14px; font-size: 16px; font-family: inherit; background: var(--he-surface);
+  color: var(--he-text-primary); transition: border-color 0.15s;
+}
+.input:focus { outline: none; border-color: var(--he-blue); }
+.inputError { border-color: var(--he-amber) !important; }
+.fieldError { font-size: 12px; color: var(--he-amber); }
+.passwordWrap { position: relative; }
+.passwordInput { padding-right: 48px; width: 100%; }
+.eyeBtn {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;
+  color: var(--he-text-muted); border-radius: 4px;
+}
+.eyeBtn:hover { color: var(--he-text-primary); }
+.brandGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.brandBtn {
+  min-height: 44px; border: 2px solid var(--he-border); border-radius: var(--he-radius-sm);
+  font-size: 14px; font-weight: 500; color: var(--he-text-primary);
+  background: var(--he-surface); transition: border-color 0.15s, background 0.15s;
+}
+.brandBtn:hover { border-color: var(--he-blue); }
+.brandSelected { border-color: var(--he-blue) !important; background: var(--he-blue-light) !important; }
+.connectBtn {
+  min-height: 52px; background: var(--he-blue); color: white;
+  border-radius: var(--he-radius); font-size: 16px; font-weight: 500;
+  transition: opacity 0.15s; margin-top: 4px;
+}
+.connectBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+.connectBtn:not(:disabled):hover { opacity: 0.9; }
+.helper { font-size: 12px; color: var(--he-text-muted); text-align: center; line-height: 1.5; }

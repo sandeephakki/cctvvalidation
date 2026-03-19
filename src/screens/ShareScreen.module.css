@@ -1,0 +1,9 @@
+.screen { display: flex; flex-direction: column; min-height: 100vh; }
+.content { flex: 1; padding: var(--he-gap); display: flex; flex-direction: column; gap: 14px; padding-bottom: 40px; }
+.previewSection { display: flex; flex-direction: column; gap: 6px; }
+.previewLabel { font-size: 12px; color: var(--he-text-muted); font-weight: 500; }
+.preview { font-family: monospace; font-size: 11px; line-height: 1.6; background: var(--he-grey-light); border-radius: var(--he-radius-sm); padding: 12px; white-space: pre-wrap; border: 1px solid var(--he-border); color: var(--he-text-primary); max-height: 200px; overflow-y: auto; }
+.secondaryRow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.secondaryBtn { min-height: 48px; border: 2px solid var(--he-border); border-radius: var(--he-radius-sm); font-size: 13px; font-weight: 500; display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--he-text-primary); transition: border-color 0.15s; }
+.secondaryBtn:hover { border-color: var(--he-blue); background: var(--he-blue-light); }
+.footer { font-size: 12px; color: var(--he-text-muted); text-align: center; line-height: 1.6; padding-top: 4px; }

@@ -1,0 +1,15 @@
+.screen { display: flex; flex-direction: column; min-height: 100vh; }
+.content { flex: 1; padding: var(--he-gap); display: flex; flex-direction: column; gap: 14px; padding-bottom: 40px; }
+.reminder {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 10px;
+  background: var(--he-amber-light); border: 1.5px solid var(--he-amber);
+  border-radius: var(--he-radius); padding: 14px;
+}
+.reminderText { font-size: 13px; color: var(--he-amber); line-height: 1.6; flex: 1; }
+.dismissBtn { width: 28px; height: 28px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--he-amber); border-radius: 4px; }
+.dismissBtn:hover { background: rgba(0,0,0,0.08); }
+.actions { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.shareBtn { min-height: 52px; background: var(--he-blue); color: white; border-radius: var(--he-radius); font-size: 16px; font-weight: 500; }
+.shareBtn:hover { opacity: 0.9; }
+.scanAgainBtn { min-height: 44px; border: 2px solid var(--he-border); border-radius: var(--he-radius); font-size: 15px; color: var(--he-text-primary); }
+.scanAgainBtn:hover { border-color: var(--he-blue); }
